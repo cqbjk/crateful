@@ -1,1 +1,3 @@
-Claudio Quintana 2017
+#Crateful.io _Official Readme_
+
+Claudio Quintana, March 2017
