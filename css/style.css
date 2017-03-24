@@ -28,8 +28,7 @@ html, body{
    padding-right: 15px;
    position: relative;
  }
- .container:before,
- .container:after {
+ .container:before, .container:after {
    content: " ";
    display: table;
  }
@@ -45,6 +44,7 @@ html, body{
  }
 
 /* (Blocked this area out to adjust for specific media queries in the laptops, mobile, and desktop sections)
+*/
 
 @media (max-width: 600px) {
 	.container {
@@ -76,7 +76,7 @@ html, body{
      width: 1170px;
    }
  }
-    */ 
+  
 
   /* HEADER */
  header {
@@ -188,7 +188,9 @@ html, body{
    padding:2em 0;
  }
  .pricing ul li {
+  display: inline-block;
    list-style-type: none;
+
  }
 
  .box {
