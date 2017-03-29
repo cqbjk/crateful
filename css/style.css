@@ -178,8 +178,8 @@ header .hero img {
 
 /* PRICING */
 .pricing {
-  background: #34495E url('../images/background.png') top center no-repeat;
   background: url('../images/background.png') top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+  background: #34495E url('../images/background.png') top center no-repeat;
   background-size: cover;
   padding: 4em 0;
   text-align: center;
@@ -424,6 +424,15 @@ footer .logo {
   margin-top: 8px;
   text-align: right;
   text-decoration: none;
+}
+
+.menu-dropitup.dropit-submenu {
+  top: -190px;
+}
+
+.dropit .dropit-submenu.menu-dropitup::after {
+  border-width: 8px 8px 0;
+  top: 159px;
 }
 
 /* CONTENT */
